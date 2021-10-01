@@ -1,4 +1,4 @@
-const API_KEY = process.env.API_KEY; // API KEY!!
+const API_KEY = "c38143e48fd001181c1bc185aa6dc47f"; // API KEY!!
 
 const d = document.getElementById;
 const button = document.getElementById('sendButton');
