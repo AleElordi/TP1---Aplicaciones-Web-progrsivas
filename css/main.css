@@ -1,0 +1,159 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+        
+h1, h2, h3{
+    color: white;
+}
+
+h1 {
+    margin-left: 3rem;
+}
+
+
+img { 
+min-width: 2rem;
+min-width: 2rem;
+}
+
+body {
+    color: #fff;
+    overflow-x: hidden;
+    height: 100vh;
+    background-image: linear-gradient(#81D4FA, #2196F3);
+    background-repeat: no-repeat
+}
+
+span {
+    color: white;
+    margin-left: 0.5rem;
+}
+
+small {
+    font: bold;
+}
+
+p {
+ color: #B0BEC5;
+}
+
+button {
+   color: #9fc5ed; 
+}
+
+#tarjeta2 {
+    margin-left: 1rem;
+}
+
+#main {
+
+margin-left: 0.5rem;
+
+}
+
+#grados{
+    font-size: 3rem;
+    margin-left: -0.5rem;
+}
+
+#estadoclima{
+    font
+    font-size: 1rem;
+}
+
+.card0 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.card1 {
+    background-image: linear-gradient(#2196F3, #81D4FA);
+    padding: 30px 20px 30px 50px
+}
+
+.image {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.large-font {
+    font-size: 70px;
+    font-family: Arial;
+    justify-content: center;
+    
+}
+
+.fa-sun-o {
+    font-size: 22px
+}
+
+.card2 {
+    background-color: #34404e;
+    padding: 0px 0px 40px 40px;
+    border-radius: 1rem;
+}
+
+input {
+    background-color: #34404e;
+    padding: 24px 0px 12px 0px !important;
+    width: 80%;
+    box-sizing: border-box;
+    border: none !important;
+    border-bottom: 1px solid #CFD8DC !important;
+    font-size: 16px !important;
+    color: #fff !important
+}
+
+input:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid #fff !important;
+    outline-width: 0;
+    font-weight: 400
+}
+
+::placeholder {
+    color: #B0BEC5 !important;
+    opacity: 1
+}
+
+:-ms-input-placeholder {
+    color: #B0BEC5 !important
+}
+
+::-ms-input-placeholder {
+    color: #B0BEC5 !important
+}
+
+.fa-search {
+    color: #34404e;
+    background-color: #E1F5FE;
+    font-size: 20px;
+    padding: 20px;
+    width: 20%;
+    cursor: pointer
+}
+
+.light-text {
+    color: #B0BEC5
+}
+
+.suggestion:hover {
+    color: #fff;
+    cursor: pointer
+}
+
+.line {
+    height: 1px;
+    background-color: #B0BEC5
+}
+
+@media screen and (max-width: 500px) {
+    .card1 {
+        padding-left: 26px
+    }
+}
