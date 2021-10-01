@@ -1,4 +1,5 @@
-const API_KEY = "c38143e48fd001181c1bc185aa6dc47f"; // API KEY!!
+const API_KEY = "c38143e48fd001181c1bc185aa6dc47f"; // API KEY Clima
+
 
 const d = document.getElementById;
 const button = document.getElementById('sendButton');
