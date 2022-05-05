@@ -60,14 +60,8 @@ const mostrarClima = (data) => {
     });
 };
 
-//--------------------------Cambio de color de fondo------------------------------//
-
-
-
-
 
 //--------------------------imagen dinamica de clima------------------------------//
-
 const datosImg = (data) => {
 
 const imgClima = data.weather.map( item => { return item.main; });
